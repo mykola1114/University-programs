@@ -1,6 +1,6 @@
 import random
 import turtle
-import time
+import time 
 
 def pointer(t, value_max, x_step, y_step,x_start=0, y_start=0):
     t.setpos(x_start+x_step, y_start+20 + value_max*y_step)

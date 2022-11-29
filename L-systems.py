@@ -73,5 +73,5 @@ if __name__ == '__main__':
 
     l_sys = L_System(t, current_settings['axiom'], current_settings['angle'], current_settings['pen_width'], current_settings['f_len'])
     l_sys.add_rules(current_settings['rules'][0], current_settings['rules'][1])
-    l_sys.generate_path(5) # 11
+    l_sys.generate_path(5) # 11 
     l_sys.draw_turtle((0, 0), 0)
